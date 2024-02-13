@@ -30,7 +30,7 @@ jobs:
           command: |
             pnpm build
       # Publish with wrangler
-      - run: npx wrangler pages publish dist --project-name=<PROJECT NAME> # Replace dist with the name of your build folder and input your project name
+      - run: npx wrangler pages publish dist --project-name=vite-pages-cloudflare
 
 workflows:
   Publish-to-Pages-workflow:
